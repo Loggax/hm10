@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    height: 78px;
+}
+
+
+.container {
+    display: flex;
+    max-width: 1010px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-top: 23px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .nav {
+} */
+
+.nav-list li,
+.btn-list li {
+    display: inline-block;
+}
+
+.btn-list{
+    margin-left: 29px;
+    margin-top: 23px;
+}
+
+.nav-list {
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li {
+    padding-right: 15px;
+}
+
+.button1 {
+    margin: 0 7px;
+    padding: 10px 25px;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+}
+
+.button2 {
+    margin: 0 7px;
+    padding: 10px 25px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+ .main {
+    /* height: 494.83px; */
+} 
+
+.hero-section {
+    margin-bottom: 111px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 83px;
+}
+
+.text-holder {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.hero-column {
+    width: 50%;
+} 
+
+.column {
+    width: 50%;
+}
+
+.column img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec-btn-list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 45px;
+    max-width: 366px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 45px;
+    max-width: 485px;
+    justify-content: space-between;
+}
+
+.sec-btn1 {
+    padding: 14px 42px;
+    background: #FF9900;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.sec-btn2 {
+    padding: 14px 42px;
+    color: #FF9900;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration-line: underline;
+    margin-left: 30px;
+}
+
+.sec-btn2::before{
+    content: "";
+    border: 10px solid transparent;
+    border-left: 13px solid #FF9900;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 8px;
+    vertical-align: -25%;
+}
+
+/* .third {
+    display: block;
+    height: 543px;
+} */
+
+.container-feature{
+    margin: 0 auto;
+    max-width: 1010px;
+    /* height: 100%; */
+}
+
+.feature-text-holder {
+    margin: 0 auto;
+    height: 108px;
+    max-width: 539px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 54px;
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    display: block;
+    width: 240px;
+}
+
+.card-text-holder-violet, 
+.card-text-holder-yellow,
+.card-text-holder-red,
+.card-text-holder-blue {
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card-desc-violet, 
+.card-desc-yellow,
+.card-desc-red,
+.card-desc-blue {
+    padding-top: 13px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-btn {
+    padding-top: 34px;
+    padding-bottom: 90px;
+}
+
+.card-btn-text {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FF9900;
+    max-width: 175px;
+    height: 53px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.footer {
+    height: 308px;
+    margin-bottom: 83px;
+    /* padding-top: 500px; */
+}
+
+.hero-footer {
+    max-width: 1010px;
+    margin: 0 auto;
+    border-top: 3px solid rgba(188, 208, 229, 0.496913);
+    border-radius: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 102px;
+}
+
+.logo-holder {
+    max-width: 185px;
+    height: 32px;
+}
+
+.footer-list1 {
+    max-width: 118px;
+    height: 205px;
+    padding-top: 65px;
+    padding-right: 46px;
+}
+
+.footer-list2 {
+    max-width: 131px;
+    height: 205px;
+    padding-top: 65px;
+    padding-right: 1px;
+}
+
+.input-holder {
+    max-width: 325px;
+    height: 205px;
+}
+
+.input {
+    padding-top: 91px;
+    width: 325px;
+    margin-bottom: 21px;
+}
+
+.input1 {
+    width: 325px;
+    height: 48px;
+    border-radius: 5px;
+}
+
+.btn-holder {
+    max-width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-list1,
+.footer-list2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #544837;
+}
+
